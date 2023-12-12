@@ -1,12 +1,12 @@
 consider the table below named 'college'
-+--------------+--------------+-------------------+
+
 | college_code | college_name | address           |
-+--------------+--------------+-------------------+
+|--------------|--------------|-------------------|
 |        12982 | TKM          | Kollam            |
 |        12983 | RIT          | Pambady, Kottayam |
 |        12986 | CET          | Trivandrum        |
 |        12988 | GEC          | Trissur           |
-+--------------+--------------+-------------------+
+
 
 we can display the details of the table using store procedure: 
 
@@ -33,7 +33,11 @@ Hence we can write the stored procedure as:
 ```
 Here the statements end at "...end $$ " instead of "...college; " 
     
-
+NOTE: 
+change the delimiter back to ';' using: 
+```
+delimiter ;
+```
 
 
 
