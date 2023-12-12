@@ -1,3 +1,7 @@
+### Stored Procedures
+
+ Stored Procedures allows you to group and encapsulate a series of SQL and procedural statements, making it reusable.
+
 consider the table below named 'college'
 
 | college_code | college_name | address           |
