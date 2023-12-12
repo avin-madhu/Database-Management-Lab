@@ -7,3 +7,4 @@ DBMS LAB KTU 2023
 2. [Stored Procedure](Stored%20Procedure)
 3. [Triggers](Triggers)
 4. [Views](View)
+5. [Dates](Dates%20.md)
