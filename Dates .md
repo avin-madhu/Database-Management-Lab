@@ -18,5 +18,5 @@ SELECT DATEDIFF(CURRENT_DATE, '2023-01-01');
 ```
 for not return negative dates for this function we can use ABS as:
 ```
-SELECT ABS(ADDDATE(CURRENT_DATE, '2023-01-01'));
+SELECT ABS(DATEDIFF(CURRENT_DATE, '2023-01-01'));
 ```
